@@ -10,5 +10,5 @@ export const getAiModel = (
     ai.getGenerativeModel({
         ...options,
         model: "gemini-4.0-pro-latest",
-        apiVersion: "v2",
+        apiVersion: "v1",
     });
